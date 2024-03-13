@@ -1,3 +1,4 @@
+package griffith;
 public abstract class Shape {
 
     private String name;
@@ -28,7 +29,9 @@ public abstract class Shape {
     public String toString() {
         return "Shape: " + name;
     }
-    public class Circle extends Shape {
+    
+    // Define Circle as a static inner class
+    public static class Circle extends Shape {
         private double radius;
 
         public Circle(String name, double radius) {
@@ -52,7 +55,8 @@ public abstract class Shape {
         }
     }
 
-    public class Rhombus extends Shape {
+    // Define Rhombus as a static inner class
+    public static class Rhombus extends Shape {
         private double side;
         private double angle; // In radians
 
@@ -78,7 +82,8 @@ public abstract class Shape {
         }
     }
 
-    public class RightAngledTriangle extends Shape {
+    // Define RightAngledTriangle as a static inner class
+    public static class RightAngledTriangle extends Shape {
         private double base;
         private double height;
         private double hypotenuse;
@@ -105,5 +110,4 @@ public abstract class Shape {
             return super.toString() + ", Base: " + base + ", Height: " + height + ", Hypotenuse: " + hypotenuse;
         }
     }
-
 }
