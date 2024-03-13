@@ -28,7 +28,6 @@ public abstract class Shape {
     public String toString() {
         return "Shape: " + name;
     }
-    
     public class Circle extends Shape {
         private double radius;
 
@@ -45,11 +44,6 @@ public abstract class Shape {
         @Override
         public double perimeter() {
             return 2 * Math.PI * radius;
-        }
-
-        @Override
-        public String toString() {
-            return super.toString() + ", Radius: " + radius;
         }
     }
 
@@ -71,11 +65,6 @@ public abstract class Shape {
         @Override
         public double perimeter() {
             return 4 * side;
-        }
-
-        @Override
-        public String toString() {
-            return super.toString() + ", Side: " + side + ", Angle: " + angle;
         }
     }
 
@@ -99,11 +88,6 @@ public abstract class Shape {
         @Override
         public double perimeter() {
             return base + height + hypotenuse;
-        }
-
-        @Override
-        public String toString() {
-            return super.toString() + ", Base: " + base + ", Height: " + height + ", Hypotenuse: " + hypotenuse;
         }
     }
 
