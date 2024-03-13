@@ -1,4 +1,4 @@
-!SESSION 2024-03-11 05:07:59.121 -----------------------------------------------
+!SESSION 2024-03-13 23:27:33.780 -----------------------------------------------
 eclipse.buildId=4.29.0.20230907-1200
 java.version=17.0.8.1
 java.vendor=Eclipse Adoptium
@@ -6,15 +6,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
 Framework arguments:  -product org.eclipse.epp.package.dsl.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-11 05:08:42.778
+!ENTRY ch.qos.logback.classic 1 0 2024-03-13 23:27:36.357
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-11 05:08:44.844
+!ENTRY ch.qos.logback.classic 1 0 2024-03-13 23:27:37.541
 !MESSAGE Logback config file: C:\Users\mrfir\Documents\.git\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
 
-!ENTRY org.eclipse.jface 2 0 2024-03-11 05:08:48.091
+!ENTRY org.eclipse.jface 2 0 2024-03-13 23:27:39.420
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-11 05:08:48.092
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-13 23:27:39.420
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -33,143 +33,15 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-03-11 05:08:56.110
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\mrfir'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2024-03-13 22:36:29.130 -----------------------------------------------
-eclipse.buildId=4.29.0.20230907-1200
-java.version=17.0.8.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
-Framework arguments:  -product org.eclipse.epp.package.dsl.product -product org.eclipse.epp.package.dsl.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product -data C:\Users\mrfir\Documents\.git -product org.eclipse.epp.package.dsl.product
-
-!ENTRY ch.qos.logback.classic 1 0 2024-03-13 22:36:32.145
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY ch.qos.logback.classic 1 0 2024-03-13 22:36:33.575
-!MESSAGE Logback config file: C:\Users\mrfir\Documents\.git\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
-
-!ENTRY org.eclipse.jface 2 0 2024-03-13 22:36:36.555
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-13 22:36:36.555
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.egit.ui 2 0 2024-03-13 22:36:40.346
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-13 23:27:43.174
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\mrfir'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY net.sourceforge.vrapper.eclipse 1 0 2024-03-13 22:39:31.136
-!MESSAGE No .vrapperrc or _vrapperrc found.
-
-!ENTRY org.eclipse.ui 2 2 2024-03-13 22:39:33.042
+!ENTRY org.eclipse.ui 2 2 2024-03-13 23:28:04.124
 !MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
 
-!ENTRY net.sourceforge.vrapper.eclipse 1 0 2024-03-13 22:39:45.939
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2024-03-13 23:28:45.124
 !MESSAGE No .vrapperrc or _vrapperrc found.
-
-!ENTRY net.sourceforge.vrapper.eclipse 1 0 2024-03-13 23:02:51.587
-!MESSAGE No .vrapperrc or _vrapperrc found.
-
-!ENTRY net.sourceforge.vrapper.eclipse 1 0 2024-03-13 23:08:41.403
-!MESSAGE No .vrapperrc or _vrapperrc found.
-
-!ENTRY net.sourceforge.vrapper.eclipse 1 0 2024-03-13 23:10:45.476
-!MESSAGE No .vrapperrc or _vrapperrc found.
-
-!ENTRY net.sourceforge.vrapper.eclipse 1 0 2024-03-13 23:10:46.959
-!MESSAGE No .vrapperrc or _vrapperrc found.
-
-!ENTRY org.eclipse.ui 4 0 2024-03-13 23:12:13.983
-!MESSAGE Unhandled event loop exception
-!STACK 0
-net.sourceforge.vrapper.platform.VrapperPlatformException: Failed to get location info for V1280
-	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection.updateStickyColumn(EclipseCursorAndSelection.java:936)
-	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection.access$2(EclipseCursorAndSelection.java:930)
-	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection$StickyColumnUpdater.caretMoved(EclipseCursorAndSelection.java:556)
-	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:101)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
-	at org.eclipse.swt.custom.StyledText.setCaretOffsets(StyledText.java:8599)
-	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6142)
-	at org.eclipse.swt.custom.StyledText$5.textChanging(StyledText.java:5402)
-	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:360)
-	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:277)
-	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:628)
-	at org.eclipse.jface.text.projection.ProjectionDocument.internalRemoveMasterDocumentRange(ProjectionDocument.java:405)
-	at org.eclipse.jface.text.projection.ProjectionDocument.removeMasterDocumentRange(ProjectionDocument.java:593)
-	at org.eclipse.jface.text.source.projection.ProjectionViewer.removeMasterDocumentRange(ProjectionViewer.java:656)
-	at org.eclipse.jface.text.source.projection.ProjectionViewer.executeProjectionCommands(ProjectionViewer.java:1004)
-	at org.eclipse.jface.text.source.projection.ProjectionViewer.catchupWithProjectionAnnotationModel(ProjectionViewer.java:983)
-	at org.eclipse.jface.text.source.projection.ProjectionViewer.processCatchupRequest(ProjectionViewer.java:857)
-	at org.eclipse.jface.text.source.projection.ProjectionViewer$AnnotationModelListener.processModelChanged(ProjectionViewer.java:122)
-	at org.eclipse.jface.text.source.projection.ProjectionViewer$AnnotationModelListener.modelChanged(ProjectionViewer.java:114)
-	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:592)
-	at org.eclipse.jface.text.source.AnnotationModel$InternalModelListener.modelChanged(AnnotationModel.java:256)
-	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:592)
-	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:558)
-	at org.eclipse.jface.text.source.AnnotationModel.modifyAnnotation(AnnotationModel.java:928)
-	at org.eclipse.jface.text.source.projection.ProjectionAnnotationModel.toggleExpansionState(ProjectionAnnotationModel.java:91)
-	at org.eclipse.jface.text.source.projection.ProjectionRulerColumn.mouseClicked(ProjectionRulerColumn.java:80)
-	at org.eclipse.jface.text.source.AnnotationRulerColumn$1.mouseUp(AnnotationRulerColumn.java:280)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
-Caused by: java.lang.IllegalArgumentException: Index out of bounds [offset value: 78]
-	at org.eclipse.swt.SWT.error(SWT.java:4899)
-	at org.eclipse.swt.graphics.TextLayout._getOffset(TextLayout.java:2174)
-	at org.eclipse.swt.graphics.TextLayout.getPreviousOffset(TextLayout.java:2436)
-	at org.eclipse.swt.custom.StyledText.getPointAtOffset(StyledText.java:5223)
-	at org.eclipse.swt.custom.StyledText.getLocationAtOffset(StyledText.java:4023)
-	at net.sourceforge.vrapper.eclipse.platform.EclipseCursorAndSelection.updateStickyColumn(EclipseCursorAndSelection.java:934)
-	... 58 more
